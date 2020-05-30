@@ -30,6 +30,13 @@ describe 'collections practice' do
     end
   end
 
+
+  describe '#swap_elements_from_to' do
+    it 'swap the element from one location to the destinated location of an array' do
+      expect(swap_elements_from_to(["blake", "ashley", "scott", "dogs", "cat", "Horses"], 1, 3)).to eq(["blake", "scott", "dogs", "ashley", "cat", "Horses"])
+    end
+  end
+
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array of integers' do
