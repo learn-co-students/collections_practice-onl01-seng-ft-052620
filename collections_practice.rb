@@ -41,7 +41,7 @@ end
 
 # Question 9
 def add_s(array)
-    addS = {} 
+    addS = []
     array.collect do |word| 
         if word == array[1] 
             word
