@@ -43,10 +43,10 @@ end
 def add_s(array)
     addS = []
     array.collect do |word| 
-        if word == array[1] 
+        if word == array[1] #the word (feet) is a index one so it'll return the same word
             word
         else 
-            word << "s"
+            word << "s" #all other words will have an S added
         end
     end
 end
